@@ -511,8 +511,15 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    width:150px;
+    height: 25px;
+    margin: 20px 0 20px 10px;
+} 
+#message
+{
+    width:250px;
+    height: 60px;
 }
-
 .scrollToTop {
     width: 40px;
     height: 40px;
