@@ -24,7 +24,7 @@ a:hover {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+    background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
 }
 
 .bloc {
@@ -754,7 +754,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #424242!important;
 }
 
 .portfolio-thumb {
@@ -798,12 +798,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #424242!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #424242!important;
 }
 
 .ltc-white {
@@ -811,7 +811,7 @@ h4 {
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #cccc!important;
 }
 
 .ltc-atomic-tangerine {
@@ -1058,4 +1058,8 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+.container bloc-sm p 
+{
+    color:#424242;
 }
