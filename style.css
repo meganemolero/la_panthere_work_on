@@ -713,7 +713,13 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
+}
+.social span
+{
+    width: 48px;
+    height:48px;
+    margin: 8px;
 }
 
 h2 {
