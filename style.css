@@ -5,8 +5,8 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    
 }
-
 a,
 button {
     transition: all .3s ease-in-out;
@@ -286,6 +286,13 @@ a:hover {
 {
     font-size: 50px;
 }
+img[src="img/title.png"], img[src="img/citation.webp"], img[src="img/title2.webp"]
+{
+    width: 100%;
+    height:100%;
+}
+
+
 #bloc-1-hero h1 {
     font-size: 32px;
 }
@@ -367,7 +374,7 @@ a:hover {
     z-index: 2;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -375,9 +382,15 @@ a:hover {
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
+    .site-navigation a 
+    {
+        margin-right:6em;
+        text-decoration: none;
+    }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
+        list-style-type: none;
     }
     .nav-invert .site-navigation {
         left: 0;
@@ -807,7 +820,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #F3976C!important;
 }
 
 .ltc-white:hover {
@@ -1063,3 +1076,4 @@ h4 {
 {
     color:#424242;
 }
+
